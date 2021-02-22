@@ -13,10 +13,14 @@ To install `hacker-quotes` under `oh-my-zsh`:
 Step 1: Clone this repository in `oh-my-zsh`'s plugins directory:
 
 ```bash
-git clone https://github.com/oldratlee/hacker-quotes.git ~/.oh-my-zsh/custom/plugins/hacker-quotes
+git clone https://github.com/imxieke/hacker-quotes.git ~/.oh-my-zsh/custom/plugins/hacker-quotes
+```
+#### or zplug
+```bash
+zplug "imxieke/hacker-quotes"
 ```
 
-Step 2: Activate the plugin in `~/.zshrc`:
+Step 2: Activate the plugin in `~/.zshrc` , if not using zplug :
 
 ```bash
 plugins=([plugins...] hacker-quotes)
@@ -34,8 +38,10 @@ If you want just checking for an interactive shell, set var `ZSH_HACKER_QUOTES_E
 For example:
 
 ```bash
-ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE= zsh -i
+ZSH_HACKER_QUOTES_ENABLE_WHEN_INTERACTIVE=true
 ```
+
+#### Code by [https://github.com/oldratlee/hacker-quotes](https://github.com/oldratlee/hacker-quotes)
 
 More zsh plugins
 --------------------
